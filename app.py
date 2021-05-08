@@ -18,9 +18,9 @@ def save_contact():
 
 screen = Tk()
 screen.title("ContactBook")
-screen.geometry("300x250")
+screen.geometry("450x250")
 Label(screen, text="- Contact Book -", fg="green", padx=7, pady=7,
-      font="Calibri 20 italic underline").pack(padx=5, pady=7)
+      font="Calibri 20 italic").pack(padx=5, pady=7)
 
 form = Frame(screen)
 
